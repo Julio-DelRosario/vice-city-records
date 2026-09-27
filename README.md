@@ -1,75 +1,87 @@
-# React + TypeScript + Vite
+# Vice City Records
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**What if you could make your own record in Vice City? 🎵**
 
-Currently, two official plugins are available:
+Vice City Records is a GTA VI-inspired interactive music experience built for **Unlayer's Build With Image Editor Challenge**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Create an artist, build a record, design the album artwork, and release it into fictional Vice City radio rotation.
 
-## React Compiler
+## The Experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The experience takes you through the process of creating your own fictional record:
 
-## Expanding the ESLint configuration
+1. **Create Your Artist**
+   - Choose your artist name and build your identity.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+2. **Build Your Record**
+   - Give your record a title.
+   - Choose a genre and release type.
+   - Create your tracklist.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+3. **Choose Your Origin**
+   - Pick a Vice City-inspired location for your record.
+   - Explore different locations inspired by the environments of Leonida.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+4. **Design Your Cover**
+   - Find imagery through Unsplash or use your own image.
+   - Customize your album artwork using **React Image Editor**.
+   - Add and adjust elements to create your own cover.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+5. **Preview Your Record**
+   - Review your artist, album artwork, tracklist, genre, and location before release.
 
-```
+6. **Release to the Radio**
+   - Release your finished record and see it appear in the fictional **101.5 Vice City Radio**.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## Why React Image Editor?
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+React Image Editor is a core part of the Cover Studio.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Instead of making the project simply an image editor with a GTA-inspired theme, I wanted the editor to have a purpose within a larger experience. Designing the album cover is an important step in creating and releasing the record.
 
-```
+The image editor allows users to take imagery and turn it into artwork that becomes part of their fictional record.
+
+## Inspiration
+
+The project is inspired by the world and atmosphere of **Grand Theft Auto VI**, particularly Vice City and the wider state of Leonida.
+
+The experience takes inspiration from the idea of music being part of the identity and culture of Vice City, while using original UI, artwork, and assets for this project.
+
+This is a fan-inspired concept and is not affiliated with or endorsed by Rockstar Games.
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- React Image Editor
+- Unsplash API
+- Vercel
+
+## Features
+
+- Artist creation
+- Record creation
+- Tracklist builder
+- Vice City-inspired locations
+- Unsplash image discovery
+- Album cover editor powered by React Image Editor
+- Record preview
+- Fictional radio station
+- Responsive interface
+
+## Built For
+
+This project was created for:
+
+**Unlayer's Build With Image Editor Challenge**
+
+The goal was to build an original GTA VI-inspired experience while making **React Image Editor a core part of the project**.
+
+## Live Demo
+
+https://vicecityrecords.julios.dev
+
+## Disclaimer
+
+Vice City Records is a fan-made, GTA VI-inspired concept created for the Build With Image Editor Challenge. It is not affiliated with, sponsored by, or endorsed by Rockstar Games or Take-Two Interactive.
